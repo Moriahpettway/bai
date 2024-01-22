@@ -1,0 +1,39 @@
+img {
+    width: 100%;
+    max-width: 500px;
+}
+
+#circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+    background: url("pinkflower.jpg");
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circle Image</title>
+  <style>
+    .circle-image {
+      width: 100px; 
+      height: 100px; 
+      border-radius: 50%; 
+      overflow: hidden; 
+    }
+
+  
+
+  </style>
+</head>
+<body>
+
+  <div class="circle-image">
+    <img src="your-image-source.jpg" alt="Your Image Description">
+  </div>
+
+  <!-- Your content goes here -->
+
+</body>
+</html>
